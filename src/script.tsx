@@ -13,7 +13,8 @@ function render() {
   const forms = document
     .getElementsByClassName("form-post-topic")
   for (let i = 0; i < forms.length; i++)
-    render2(forms[i])
+    if (!forms[i].classList.contains("form-post-message"))
+      render2(forms[i])
 }
 
 function render2(form: Element) {
