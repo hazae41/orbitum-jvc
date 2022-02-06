@@ -4,7 +4,7 @@ style:
 	npx tailwindcss -o dist/style.css
 
 script:
-	deno bundle --no-check src/script.tsx dist/script.js
+	deno bundle --no-check src/render.tsx dist/script.js
 	npx esbuild --minify dist/script.js --outfile=dist/script.min.js
 
 build:

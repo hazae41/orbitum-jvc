@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["deno.window", "DOM"],
-    "target": "ES6"
+    "target": "ES6",
+    "jsx": "preserve"
   }
 }

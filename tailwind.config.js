@@ -1,7 +1,7 @@
 module.exports = {
   prefix: "ob-",
   separator: "_",
-  content: ["src/*.tsx"],
+  content: ["comps/*.tsx"],
   safelist: [],
   corePlugins: {
     preflight: false,

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Orbitum
 // @namespace    https://orbitum.space/
-// @version      0.1
+// @version      0.2
 // @description  Orbitum pour JVC
 // @author       Haz
 // @match        https://www.jeuxvideo.com/*
